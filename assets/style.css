@@ -10,6 +10,7 @@
   
   header {
     text-align: center;
+    margin: 3%;
   }
   
   header h1 {
@@ -24,6 +25,7 @@
   }
 
   sub {
+    margin: 15px;
     font-size: 2rem;
     font-family: sans-serif;
   }
@@ -43,6 +45,16 @@
   nav a:hover {
     background-color: var(--white);
     color: var(--dark-blue);
+  }
+
+  .bio {
+
+  }
+  
+  section {
+    padding: 15px;
+    margin-left: 6%;
+    margin-right: 6%;
   }
 
   footer {
