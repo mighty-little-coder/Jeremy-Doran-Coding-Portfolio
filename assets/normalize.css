@@ -1,25 +1,21 @@
-/* html {
+html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-} */
+}
 
 /* code {
   font-size: 100%;
   font-family: inherit;
 } */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-
 h2 {
 
 }
 
-ol,
-ul {
-  list-style: none;
-}
