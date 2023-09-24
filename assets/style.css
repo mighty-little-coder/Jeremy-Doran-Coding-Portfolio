@@ -1,0 +1,14 @@
+  :root {
+    --light-blue: #58bac1;
+
+  }
+  
+  background {
+    color: gray;
+  }
+
+  h1 {
+    font-size: 4.5rem;
+    color: brown;
+  }
+
