@@ -4,11 +4,53 @@
   }
   
   background {
-    color: gray;
+    background-color: darkgray;
   }
 
-  h1 {
-    font-size: 4.5rem;
-    color: brown;
+  
+  header {
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 6rem;
+    font-family: sans-serif;
+    color: black;
   }
 
+  header h2 {
+    font-size: 3rem;
+    color: black;
+  }
+
+  sub {
+    font-size: 2rem;
+    font-family: sans-serif;
+  }
+
+  nav {
+    display: flex;
+    background-color: var(--light-blue);
+  }
+  
+  nav a {
+    color: var(--dark-blue);
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  nav a:hover {
+    background-color: var(--white);
+    color: var(--dark-blue);
+  }
+
+  footer {
+    display: flex;
+    padding: 1%;
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
+    align-self: flex-start;
+    background-color: lightgray;
+  }
