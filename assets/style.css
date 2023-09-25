@@ -114,7 +114,6 @@
   background: #58bac1;
   height: 46px;
   width: 100%;
-
   }
 
   header {
@@ -127,5 +126,56 @@
   sub {
     color: #58bac1;
     font-size: 30px;
-    margin: 0px 0px 0px 200px;
+    margin: 0px 20px;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    height: 46px;
+    align-items: center;
+  }
+
+  nav ul li {
+    list-style-type: none;
+  }
+  
+  .bio {
+    margin: 20px 0px;
+  }
+
+  .projects-section {
+    margin: 20px 0px;
+  }
+
+  .project {
+    background-image: url(./images/coding-background.jpg);
+    background-repeat: no-repeat;
+    /* width: 100%; */
+    height: 200px;
+    flex-basis: calc(50% - 1em);
+    margin: 5px;
+  }
+
+  .project-text {
+    color: black;
+  }
+
+  .project-title {
+    height: 50px;
+    background-color: white;
+    width: 75px;
+    display: flex;
+    align-items: center;
+  }
+
+  #project1 {
+    flex-basis: 100%;
+    justify-self: center;
+  }
+
+  .projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
