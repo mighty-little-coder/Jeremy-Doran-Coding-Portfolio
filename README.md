@@ -18,6 +18,10 @@ This portfolio is intended to reflect my attitude towards working and creating. 
 
 ## Credits
 
+### Tutor
+
+    Jaytee Padilla
+
 ### Collaborators
 
     Evan Bennett 
