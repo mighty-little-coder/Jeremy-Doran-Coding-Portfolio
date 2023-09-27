@@ -22,15 +22,17 @@
   }
 
   header {
+    display: flex;
+    justify-content: center;
     color: #58bac1;
     font-size: 50px;
     font-weight: bold;
-    padding: 35px 0px 0px 200px;
   }
 
   sub {
+    display: flex;
+    justify-content: center;
     font-size: 30px;
-    margin: 0px 20px;
   }
 
   .description {
@@ -56,7 +58,7 @@
   }
   
   .bio {
-    margin: 20px 0px;
+    margin: 20px 20px;
   }
 
   .projects-section {
@@ -114,6 +116,13 @@
     font-size: 1.5em;
   }
 
-  a {
-    color: black;
-  }
+img {
+  border-radius: 20px;
+  box-shadow: #606060;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+a {
+  color: black;
+}
