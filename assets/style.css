@@ -2,35 +2,35 @@
     --light-blue: #58bac1;
   }
 
-  body {
-    background-color: #606060;
-  }
-
-
-  *{
-    padding: 0 ;
+  * {
+    padding: 0;
     margin: 0;
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
   }
 
-  nav {
-  background: #58bac1;
-  height: 46px;
-  width: 100%;
+  a {
+    color: black;
+  }
+
+  body {
+    background-color: #606060;
   }
 
   header {
+    display: flex;
+    justify-content: center;
     color: #58bac1;
     font-size: 50px;
     font-weight: bold;
-    padding: 35px 0px 0px 200px;
+    margin: 100px 0px 0 0;
   }
 
   sub {
+    display: flex;
+    justify-content: center;
     font-size: 30px;
-    margin: 0px 20px;
   }
 
   .description {
@@ -38,42 +38,85 @@
     flex-direction: column;
     justify-content: center;
     padding: 12px 12px;
+    margin: 200px auto 20px;
+    background-color: white;
+    border-style: 1px solid;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px;
+    max-width: 2000px;
+  }
+
+  .description div ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* height: px; */
+    align-items: center;
+    padding: 60px 0px;
+  }
+
+  .description div ul li {
+    background-color: #58bac1;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1.5em;
+    box-shadow: 2px 2px 2px;
+  }
+
+  .bio {
+    margin: 20px 20px;
+  }
+
+  .short-bio {
+    display: flex;
+    justify-content: center;
+    padding: 12px 12px;
+    margin: 2% 11% 15% 11%;
     background-color: white;
     border-style: solid;
     border-width: 1px;
-    border-radius: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px;
+    font-size: 20px;
   }
 
-  nav ul {
+  .project-class {
     display: flex;
-    justify-content: space-evenly;
-    height: 46px;
-    align-items: center;
-  }
-
-  nav ul li {
-    list-style-type: none;
-  }
-  
-  .bio {
-    margin: 20px 0px;
+    background-color: #58bac1;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 200px 0 0 20px;
+    font-size: 1.5em;
+    box-shadow: 2px 2px 2px;
+    max-width: 50%;
   }
 
   .projects-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     margin: 20px 0px;
+    box-sizing: border-box;
+  }
+
+  .projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: border-box;
   }
 
   .project {
     background-image: url(./images/coding-background.jpg);
     background-repeat: no-repeat;
-    /* width: 100%; */
+    width: 100%;
     height: 200px;
-    flex-basis: calc(50% - 1em);
-    margin: 5px;
-  }
-
-  .project-text {
-    color: black;
+    flex-basis: calc(50% - 2em);
+    margin: auto;
   }
 
   .project-title {
@@ -86,34 +129,82 @@
     align-items: center;
   }
 
+  .project-text {
+    color: black;
+  }
+
   #project1 {
     flex-basis: 100%;
-    justify-self: center;
-  }
-
-  .projects-container {
-    display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    margin: 20px;
   }
 
-  .description div ul {
+  img {
+    display: block;
+    margin: auto;
+    height: auto;
+    max-width: 400px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 4%;
+    margin-bottom: 1%;
+    box-shadow: 5px 5px 10px;
+  }
+
+  .footer {
     display: flex;
-    justify-content: space-evenly;
-    height: 46px;
-    align-items: center;
-    padding: 60px 0px;
-  }
-
-  .description div ul li {
-    background-color: #58bac1;
+    flex-direction: column;
+    background-color: white;
+    border: black;
     border-style: solid;
     border-width: 1px;
     border-radius: 10px;
-    padding: 10px;
-    font-size: 1.5em;
+    margin: 3% 3% 0 3%;
   }
 
-  a {
-    color: black;
+  .footer div h3 {
+    display: flex;
+    justify-content: center;
+    padding: 25px 0 10px 0;
+  }
+
+  .footer ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+  }
+
+
+
+  /* Adjusting code for tablet screen size (768px). */
+  @media (max-width: 768px) {
+    .description {
+      text-size-adjust: auto;
+      font-size: medium;
+    }
+  }
+
+  /* Adjust code for cellphone screen(480px). */
+  @media (min-width: 480px) {
+    .description div ul li {
+      background-color: #58bac1;
+      border-style: solid;
+      border-width: 1px;
+      border-radius: 10px;
+      padding: 10px;
+      margin: 10px;
+      font-size: 1.5em;
+      box-shadow: 2px 2px 2px;
+    }
+  }
+
+  .footer ul {
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0px 15;
+  }
+
+  .footer ul li {
+    margin: 10px;
   }
