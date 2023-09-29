@@ -24,7 +24,11 @@ This portfolio is intended to reflect my attitude towards working and creating. 
 
 ### Collaborators
 
-    Evan Bennett 
+    Evan Bennett
+
+    Christopher Rice
+
+    Samantha Rose 
 
 ### References
 
